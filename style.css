@@ -1,0 +1,17 @@
+div {
+    width: 200px;
+    height: 400px;
+    background: red;
+    position: absolute;
+    animation-name: example;
+    animation-duration: 3s;
+
+}
+@keyframes example {
+    0% {background-color: aqua;left:10px;top:20px;}
+    25%{background-color: blanchedalmond;left:300px;top:20px;}
+    50%{background-color: blue;left:300px;top:200px}
+    75%{background-color: black;left:10px;top:200px}
+    100%{background-color: brown;left:0px;top:0px}
+
+}
